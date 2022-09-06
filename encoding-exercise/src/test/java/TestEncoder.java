@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-public class EncoderTests {
+public class TestEncoder {
     @Test
     public void testEmptyEncode() {
         assertNull(Encoder.encode(null));
