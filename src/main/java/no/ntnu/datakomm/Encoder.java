@@ -81,9 +81,8 @@ public class Encoder {
      *        translated to "A".
      * @return Decoded message, as a string.
      * If the binaryString is null, return null.
-     * If the binarySignal is an empty string, return empty string
-     * If the binarySignal is an empty string, return empty string
-     * @throws IllegalArgumentException If the format for binarySignal is invalid
+     * If the binaryString is an empty string, return empty string
+     * @throws IllegalArgumentException If the format for binaryString is invalid
      */
     public static String decode(String binaryString) throws IllegalArgumentException {
         // TODO - implement this function
