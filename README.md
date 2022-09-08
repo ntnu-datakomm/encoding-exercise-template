@@ -1,8 +1,9 @@
-# Encoding exercise template
+# Encoding exercise
 
-Template code for the exercise on encoding, used in the course IDATA2304 Computer networks, NTNU, Campus Ålesund.
+Exercise on encoding, used in the course [IDATA2304 Computer networks](https://www.ntnu.edu/studies/courses/IDATA2304),
+[NTNU](https://www.ntnu.edu/), Campus Ålesund.
 
-# Intention
+## Intention
 
 The intention for this exercise is to experience different encodings of data. As you have heard in the course - we
 typically send only ones and zeroes over wires (or wireless signals). This implies that to send any kind of data, we
@@ -12,17 +13,17 @@ stream and vice versa.
 Note: here we will use a string of bits, for example "10101100" as a string, just for simplicity of readability. In real
 life you would use much more effective data structures.
 
-# Instructions
+## Instructions
 
 The task is to implement functions `encode(message)` and `decode(bits)` in the `Encoder` class. The encoding must be
 done according to the protocol described in the `Encoder` class.
 
-# Getting started
+## Getting started
 
 Clone this Git repository, open this folder inside your IDE (IntelliJ, Netbeans or other). This is a Maven project which
 you have seen previously in other course(s).
 
-# Testing and grading
+## Testing and grading
 
 The project comes with unit tests. To check whether you have implemented the functions correctly, you can run the tests
 locally on your computer. Simply execute `mvn test` in the terminal (in the project folder), or run the tests from your
